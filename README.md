@@ -64,9 +64,9 @@ A robotic environment used in a food store warehouse
 
 | **Component**              | **Motion Type**       | **Axis / Direction**          | **Range**                       | **Description**                                                 |
 |---------------------------|-----------------------|-------------------------------|---------------------------------|-----------------------------------------------------------------|
-| Sliding Platform           | Linear                | X-axis (forward/backward)     | 0 – 500 mm (adjustable)         | Moves SCARA arm in front of shelf columns                      |
-| Vertical Actuator          | Linear                | Z-axis (up/down)              | 0 – 400 mm (from bottom to top) | Lifts or lowers SCARA arm to reach shelf levels                |
+| Sliding Platform           | Linear                | X-axis (forward/backward)     | 0 – 2.5 meters (adjustable)        | Moves SCARA arm in front of shelf columns                      |
+| Vertical Actuator          | Linear                | Z-axis (up/down)              | 0 – 2 meters (from bottom to top) | Lifts or lowers SCARA arm to reach shelf levels                |
 | SCARA Arm – Base Rotation | Rotary                | Left/right rotation            | ±150 degree rotation             | Rotates from left shelf to right chute area                   |
 | SCARA Arm – Elbow Joint   | Rotary                | Arm extension/folding          | ±120 degree rotation             | Extends toward shelves or retracts to center                  |
-| Gripper / End Effector    | Linear / Mechanical   | Open/Close                     | 50–70 mm width                   | Picks up food items from shelf                                 |
+| Gripper / End Effector    | Linear / Mechanical   | Open/Close                     | 50–120 mm width (adjustable)     | Picks up food items from shelf                                 |
 | Slider                    | Gravity               | Inclined plane                 | Fixed                            | Delivers item from gripper to collection basket               |
