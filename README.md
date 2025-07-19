@@ -39,8 +39,8 @@ A robotic environment used in a food store warehouse
   - Check sensor status (shelf detection, item presence, basket availability).
 
 ### 2- Item Detection
-  - Scan the shelfs that will be to the left side of the arm using RFID
-  - Identify which item to pick from the shelfs
+  - Scan the shelves that will be to the left side of the arm using RFID
+  - Identify which item to pick from the shelves
 
 ### 3- Arm Movement
   - Slide the entire SCARA arm platform forward or backward along the rail to align with the correct shelf column.
@@ -48,8 +48,8 @@ A robotic environment used in a food store warehouse
   - Rotate and extend the SCARA arm toward the item.
   - Close the gripper to pick the item.
 
-### 4- Item Placment
-  - The shelfs will be slightly tilted towards the arm so the items will slide close to the arm
+### 4- Item Placement
+  - The shelves will be slightly tilted towards the arm so the items will slide close to the arm
   - The arm will take the item and will put it in the slider that will be to the right side of the arm
 
 ### 5- Item Delivery
@@ -57,8 +57,8 @@ A robotic environment used in a food store warehouse
   - Notify workers via a light or alert when an item arrives
 
 ### 6- Loop or Standby
-  - If there is more items then repeat from Step 2
-  - If there is no more item then return to home position and standby
+  - If there are more items, repeat from Step 2
+  - If there are no more items then return to home position and standby
 
 ## Working Envelope
 
@@ -66,7 +66,7 @@ A robotic environment used in a food store warehouse
 |---------------------------|-----------------------|-------------------------------|---------------------------------|-----------------------------------------------------------------|
 | Sliding Platform           | Linear                | X-axis (forward/backward)     | 0 – 2.5 meters (adjustable)        | Moves SCARA arm in front of shelf columns                      |
 | Vertical Actuator          | Linear                | Z-axis (up/down)              | 0 – 2 meters (from bottom to top) | Lifts or lowers SCARA arm to reach shelf levels                |
-| SCARA Arm – Base Rotation | Rotion                | Left/right rotation            | ±150 degree rotation             | Rotates from left shelf to right chute area                   |
-| SCARA Arm – Elbow Joint   | Rotion                | Arm extension/folding          | ±120 degree rotation             | Extends toward shelves or retracts to center                  |
+| SCARA Arm – Base Rotation | Rotation                | Left/right rotation            | ±150 degree rotation             | Rotates from left shelf to right chute area                   |
+| SCARA Arm – Elbow Joint   | Rotation                | Arm extension/folding          | ±120 degree rotation             | Extends toward shelves or retracts to center                  |
 | Gripper / End Effector    | Linear / Mechanical   | Open/Close                     | 50–120 mm width (adjustable)     | Picks up food items from shelf                                 |
-| Slider                    | Gravity               | Inclined plane                 | Fixed                            | Delivers item from gripper to collection basket               |
+| Slider                    | Gravity               | Inclined plane                 | 1 meter * 3.5 meters (45 degree angle)| Delivers item from gripper to collection basket               |
